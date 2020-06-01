@@ -49,3 +49,61 @@ nav {
         }
     }
 }
+
+footer {
+    background: $bg;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px 10px 25px;
+    .footer-logo {
+        display: flex;
+        width: 15%;
+        justify-content: space-between;
+        align-items: center;
+        color: #FFF;
+        p {
+            a {
+                color: #FFF;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                    color: blue;
+                }
+            }
+        }
+        div {
+            text-transform: uppercase;
+        }
+    }
+    .footer-links {
+        .social-link {
+            display: inline-block;
+            border: 1px solid #fff;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            &:hover {
+                background: #DBA470;
+                border: 1px solid #DBA470;
+            }
+        }
+        #twitter {
+            background-image: url("./twitter.svg");
+            background-size: 22px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        #linkedin {
+            background-image: url("./linkedin.svg");
+            background-size: 20px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        #github {
+            background-image: url("./github.svg");
+            background-size: 20px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+}
