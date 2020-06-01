@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ./restaurant-bg.jpg */ \"./src/restaurant-bg.jpg\");\nvar ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! ./twitter.svg */ \"./src/twitter.svg\");\nvar ___CSS_LOADER_URL_IMPORT_2___ = __webpack_require__(/*! ./linkedin.svg */ \"./src/linkedin.svg\");\nvar ___CSS_LOADER_URL_IMPORT_3___ = __webpack_require__(/*! ./github.svg */ \"./src/github.svg\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_3___);\n// Module\nexports.push([module.i, \"*,\\n:before,\\n:after {\\n  margin: 0;\\n  box-sizing: border-box;\\n}\\n\\nbody {\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n  background-position: center;\\n  background-size: cover;\\n  background-repeat: no-repeat;\\n  height: 100vh;\\n  color: #FFF;\\n}\\n\\nnav {\\n  background: rgba(0, 0, 0, 0.7);\\n  display: flex;\\n  justify-content: space-between;\\n  align-items: center;\\n  padding-left: 20px;\\n}\\nnav .logo {\\n  text-transform: uppercase;\\n}\\nnav .navigation-links {\\n  display: flex;\\n}\\nnav .navigation-links a {\\n  padding: 25px;\\n  color: #FFF;\\n  text-decoration: none;\\n  text-transform: uppercase;\\n}\\nnav .navigation-links a:nth-child(2) {\\n  border-right: 1px solid gray;\\n  border-left: 1px solid gray;\\n}\\nnav .navigation-links a:hover {\\n  background: #277E1F;\\n  color: #000;\\n}\\nnav .navigation-links .active {\\n  border-bottom: 4px solid #AB450A;\\n}\\n\\nsection {\\n  height: 84vh;\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n}\\nsection .jumbo {\\n  background: rgba(0, 0, 0, 0.7);\\n  border-radius: 5px;\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n  width: 40%;\\n  height: 25%;\\n}\\n\\nfooter {\\n  border-top: 2px solid rgba(0, 0, 0, 0.7);\\n  display: flex;\\n  justify-content: space-between;\\n  padding: 10px 25px 10px 25px;\\n}\\nfooter .footer-logo {\\n  display: flex;\\n  width: 15%;\\n  justify-content: space-between;\\n  align-items: center;\\n  color: #FFF;\\n}\\nfooter .footer-logo p a {\\n  color: #FFF;\\n  text-decoration: none;\\n}\\nfooter .footer-logo p a:hover {\\n  text-decoration: underline;\\n  color: blue;\\n}\\nfooter .footer-logo div {\\n  text-transform: uppercase;\\n}\\nfooter .footer-links .social-link {\\n  display: inline-block;\\n  border: 1px solid #fff;\\n  height: 40px;\\n  width: 40px;\\n  border-radius: 50%;\\n}\\nfooter .footer-links .social-link:hover {\\n  background: #DBA470;\\n  border: 1px solid #DBA470;\\n}\\nfooter .footer-links #twitter {\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \");\\n  background-size: 22px;\\n  background-repeat: no-repeat;\\n  background-position: center;\\n}\\nfooter .footer-links #linkedin {\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \");\\n  background-size: 20px;\\n  background-repeat: no-repeat;\\n  background-position: center;\\n}\\nfooter .footer-links #github {\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_3___ + \");\\n  background-size: 20px;\\n  background-repeat: no-repeat;\\n  background-position: center;\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/style.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\nvar ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ./imgs/restaurant-bg.jpg */ \"./src/imgs/restaurant-bg.jpg\");\nvar ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! ./imgs/twitter.svg */ \"./src/imgs/twitter.svg\");\nvar ___CSS_LOADER_URL_IMPORT_2___ = __webpack_require__(/*! ./imgs/linkedin.svg */ \"./src/imgs/linkedin.svg\");\nvar ___CSS_LOADER_URL_IMPORT_3___ = __webpack_require__(/*! ./imgs/github.svg */ \"./src/imgs/github.svg\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);\nvar ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);\nvar ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);\nvar ___CSS_LOADER_URL_REPLACEMENT_3___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_3___);\n// Module\nexports.push([module.i, \"*,\\n:before,\\n:after {\\n  margin: 0;\\n  box-sizing: border-box;\\n}\\n\\nbody {\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_0___ + \");\\n  background-position: center;\\n  background-size: cover;\\n  background-repeat: no-repeat;\\n  height: 100vh;\\n  color: #FFF;\\n}\\n\\nnav {\\n  background: rgba(0, 0, 0, 0.7);\\n  display: flex;\\n  justify-content: space-between;\\n  align-items: center;\\n  padding-left: 20px;\\n}\\nnav .logo {\\n  text-transform: uppercase;\\n}\\nnav .navigation-links {\\n  display: flex;\\n}\\nnav .navigation-links a {\\n  padding: 25px;\\n  color: #FFF;\\n  text-decoration: none;\\n  text-transform: uppercase;\\n}\\nnav .navigation-links a:nth-child(2) {\\n  border-right: 1px solid gray;\\n  border-left: 1px solid gray;\\n}\\nnav .navigation-links a:hover {\\n  background: #277E1F;\\n  color: #000;\\n}\\nnav .navigation-links .active {\\n  border-bottom: 4px solid #AB450A;\\n}\\n\\nsection {\\n  height: 84vh;\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n}\\nsection .jumbo {\\n  background: rgba(0, 0, 0, 0.7);\\n  border-radius: 5px;\\n  display: flex;\\n  justify-content: center;\\n  align-items: center;\\n  width: 40%;\\n  height: 25%;\\n}\\n\\nfooter {\\n  border-top: 2px solid rgba(0, 0, 0, 0.7);\\n  display: flex;\\n  justify-content: space-between;\\n  padding: 10px 25px 10px 25px;\\n}\\nfooter .footer-logo {\\n  display: flex;\\n  width: 15%;\\n  justify-content: space-between;\\n  align-items: center;\\n  color: #FFF;\\n}\\nfooter .footer-logo p a {\\n  color: #FFF;\\n  text-decoration: none;\\n}\\nfooter .footer-logo p a:hover {\\n  text-decoration: underline;\\n  color: blue;\\n}\\nfooter .footer-logo div {\\n  text-transform: uppercase;\\n}\\nfooter .footer-links .social-link {\\n  display: inline-block;\\n  border: 1px solid #fff;\\n  height: 40px;\\n  width: 40px;\\n  border-radius: 50%;\\n}\\nfooter .footer-links .social-link:hover {\\n  background: #DBA470;\\n  border: 1px solid #DBA470;\\n}\\nfooter .footer-links #twitter {\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_1___ + \");\\n  background-size: 22px;\\n  background-repeat: no-repeat;\\n  background-position: center;\\n}\\nfooter .footer-links #linkedin {\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_2___ + \");\\n  background-size: 20px;\\n  background-repeat: no-repeat;\\n  background-position: center;\\n}\\nfooter .footer-links #github {\\n  background-image: url(\" + ___CSS_LOADER_URL_REPLACEMENT_3___ + \");\\n  background-size: 20px;\\n  background-repeat: no-repeat;\\n  background-position: center;\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/style.scss?./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -157,15 +157,51 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
-/***/ "./src/github.svg":
-/*!************************!*\
-  !*** ./src/github.svg ***!
-  \************************/
+/***/ "./src/imgs/github.svg":
+/*!*****************************!*\
+  !*** ./src/imgs/github.svg ***!
+  \*****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"146e30eb12f12f0078841918fde09889.svg\");\n\n//# sourceURL=webpack:///./src/github.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"146e30eb12f12f0078841918fde09889.svg\");\n\n//# sourceURL=webpack:///./src/imgs/github.svg?");
+
+/***/ }),
+
+/***/ "./src/imgs/linkedin.svg":
+/*!*******************************!*\
+  !*** ./src/imgs/linkedin.svg ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"3ab0008feac4dd2efb3b2fdd51a6d261.svg\");\n\n//# sourceURL=webpack:///./src/imgs/linkedin.svg?");
+
+/***/ }),
+
+/***/ "./src/imgs/restaurant-bg.jpg":
+/*!************************************!*\
+  !*** ./src/imgs/restaurant-bg.jpg ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"e976598113144e21ec44116398e9bda8.jpg\");\n\n//# sourceURL=webpack:///./src/imgs/restaurant-bg.jpg?");
+
+/***/ }),
+
+/***/ "./src/imgs/twitter.svg":
+/*!******************************!*\
+  !*** ./src/imgs/twitter.svg ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"88d497ccd95f265768e5018dcea1f886.svg\");\n\n//# sourceURL=webpack:///./src/imgs/twitter.svg?");
 
 /***/ }),
 
@@ -181,18 +217,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nav
 
 /***/ }),
 
-/***/ "./src/linkedin.svg":
-/*!**************************!*\
-  !*** ./src/linkedin.svg ***!
-  \**************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"3ab0008feac4dd2efb3b2fdd51a6d261.svg\");\n\n//# sourceURL=webpack:///./src/linkedin.svg?");
-
-/***/ }),
-
 /***/ "./src/nav_bar.js":
 /*!************************!*\
   !*** ./src/nav_bar.js ***!
@@ -205,18 +229,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
-/***/ "./src/restaurant-bg.jpg":
-/*!*******************************!*\
-  !*** ./src/restaurant-bg.jpg ***!
-  \*******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"e976598113144e21ec44116398e9bda8.jpg\");\n\n//# sourceURL=webpack:///./src/restaurant-bg.jpg?");
-
-/***/ }),
-
 /***/ "./src/style.scss":
 /*!************************!*\
   !*** ./src/style.scss ***!
@@ -225,18 +237,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, exports, __webpack_require__) {
 
 eval("var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ \"./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js\");\n            var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./style.scss */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/style.scss\");\n\n            content = content.__esModule ? content.default : content;\n\n            if (typeof content === 'string') {\n              content = [[module.i, content, '']];\n            }\n\nvar options = {};\n\noptions.insert = \"head\";\noptions.singleton = false;\n\nvar update = api(content, options);\n\n\n\nmodule.exports = content.locals || {};\n\n//# sourceURL=webpack:///./src/style.scss?");
-
-/***/ }),
-
-/***/ "./src/twitter.svg":
-/*!*************************!*\
-  !*** ./src/twitter.svg ***!
-  \*************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"88d497ccd95f265768e5018dcea1f886.svg\");\n\n//# sourceURL=webpack:///./src/twitter.svg?");
 
 /***/ })
 
