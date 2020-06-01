@@ -50,8 +50,24 @@ nav {
     }
 }
 
+section {
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .jumbo {
+        background: $bg;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        height: 25%;
+    }
+}
+
 footer {
-    background: $bg;
+    border-top: 2px solid $bg;
     display: flex;
     justify-content: space-between;
     padding: 10px 25px 10px 25px;
