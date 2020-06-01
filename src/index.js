@@ -1,1 +1,3 @@
-console.log("Hello from webpack!");
+import navigationBar from './nav_bar';
+import './style.scss';
+navigationBar();
