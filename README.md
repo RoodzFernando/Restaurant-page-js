@@ -8,12 +8,13 @@ A restaurant web-page built using vanilla javascript.
 
 ## Built With
 - Javascript
+- Webpack
 
 ## How to Run the App Locally
 ```
    git clone https://github.com/RoodzFernando/Restaurant-page-js
    cd Restaurant-page-js
-   run npm run build
+   run npm run start
 ```
 
 ## Author:
