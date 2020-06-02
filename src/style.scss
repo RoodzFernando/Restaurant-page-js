@@ -61,6 +61,13 @@ section {
         justify-content: center;
         align-items: center;
         width: 40%;
+        .resto-motto {
+            background: $bg;
+            padding: 40px;
+            height: 105%;
+            width: 100%;
+            border-radius: 6px;
+        }
     }
 }
 
@@ -137,13 +144,14 @@ section {
 }
 
 footer {
-    border-top: 2px solid $bg;
+    border-top: 2px solid #000;
     display: flex;
     justify-content: space-between;
     padding: 10px 25px 10px 25px;
+    background: $bg;
     .footer-logo {
         display: flex;
-        width: 15%;
+        width: 28%;
         justify-content: space-between;
         align-items: center;
         color: #FFF;
@@ -178,8 +186,10 @@ footer {
             background-size: 22px;
             background-repeat: no-repeat;
             background-position: center;
+            margin-right: 10px;
         }
         #linkedin {
+            margin-right: 10px;
             background-image: url("./imgs/linkedin.svg");
             background-size: 20px;
             background-repeat: no-repeat;

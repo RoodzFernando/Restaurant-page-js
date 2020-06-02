@@ -2,7 +2,10 @@ export function pageContent() {
     let bodySection = document.createElement("section");
     let bodyDiv = document.createElement("div");
     bodyDiv.classList.add("jumbo");
-    // bodyDiv.innerHTML = "<h2>Eating good food is the experience you will have with us..</h2>";
+    let mottoDiv = document.createElement("div");
+    mottoDiv.classList.add("resto-motto");
+    mottoDiv.innerHTML = "<h2>Welcome to Restaurant Page, your number one source for all sane food. We're dedicated to providing you the very best of recipes</h2>";
+    bodyDiv.appendChild(mottoDiv);
     bodySection.appendChild(bodyDiv);
     document.getElementById("content").appendChild(bodySection);
 }
