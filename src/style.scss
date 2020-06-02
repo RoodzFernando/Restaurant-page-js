@@ -56,20 +56,18 @@ section {
     justify-content: center;
     align-items: center;
     .jumbo {
-        background: $bg;
         border-radius: 5px;
         display: flex;
         justify-content: center;
         align-items: center;
         width: 40%;
-        // height: 25%;
     }
 }
 
 // contact page
 form {
-    // background: rgba(0, 0, 0, 0.7);
-    padding: 25px 15px 25px 15px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 35px;
     input[type="text"],
     input[type="email"] {
         padding: 6px;
@@ -103,6 +101,38 @@ form {
     }
     div:last-child {
         text-align: center;
+    }
+}
+
+// menu page
+section {
+    display: flex;
+    flex-direction: column;
+    .menu {
+        text-align: center;
+        background: $bg;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 25px;
+        .menu-cards {
+            display: flex;
+            justify-content: space-between;
+            .menu-card {
+                border: 1px solid #FFF;
+                margin: 5px;
+                img {
+                    width: 200px;
+                    height: 200px;
+                    object-fit: cover;
+                }
+                .title {
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    text-transform: uppercase;
+                }
+            }
+        }
     }
 }
 

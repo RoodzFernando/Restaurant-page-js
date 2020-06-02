@@ -8,6 +8,7 @@ A restaurant web-page built using vanilla javascript.
 
 ## Built With
 - Javascript
+- Webpack
 
 ## How to Run the App Locally
 ```
