@@ -62,7 +62,47 @@ section {
         justify-content: center;
         align-items: center;
         width: 40%;
-        height: 25%;
+        // height: 25%;
+    }
+}
+
+// contact page
+form {
+    // background: rgba(0, 0, 0, 0.7);
+    padding: 25px 15px 25px 15px;
+    input[type="text"],
+    input[type="email"] {
+        padding: 6px;
+        color: #000;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 300px;
+    }
+    input[type="email"] {
+        margin: 16px 0 16px 0;
+    }
+    textarea {
+        height: 100px;
+        margin-bottom: 16px;
+    }
+    button {
+        background: teal;
+        border: none;
+        border-radius: 6px;
+        padding: 10px;
+        width: 60px;
+        color: #FFF;
+        cursor: pointer;
+        text-transform: uppercase;
+        &:hover {
+            color: #000;
+            background: #277E20;
+        }
+    }
+    div:last-child {
+        text-align: center;
     }
 }
 
