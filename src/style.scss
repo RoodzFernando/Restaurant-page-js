@@ -1,0 +1,205 @@
+$bg: rgba(0, 0, 0, .7);
+$links-color: #FFF;
+$links-hover: #277E1F;
+$hover-txt-color: #000;
+$orange: orange;
+*,
+:before,
+:after {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./imgs/restaurant-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #FFF;
+}
+
+nav {
+    background: $bg;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    .logo {
+        text-transform: uppercase;
+    }
+    .navigation-links {
+        display: flex;
+        a {
+            padding: 25px;
+            color: $links-color;
+            text-decoration: none;
+            text-transform: uppercase;
+            &:nth-child(2) {
+                border-right: 1px solid gray;
+                border-left: 1px solid gray;
+            }
+            &:hover {
+                background: $links-hover;
+                color: $hover-txt-color;
+            }
+        }
+        .active {
+            border-bottom: 4px solid #AB450A;
+        }
+    }
+}
+
+section {
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .jumbo {
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        .resto-motto {
+            background: $bg;
+            padding: 40px;
+            height: 105%;
+            width: 100%;
+            border-radius: 6px;
+        }
+    }
+}
+
+// contact page
+form {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 35px;
+    input[type="text"],
+    input[type="email"] {
+        padding: 6px;
+        color: #000;
+    }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 300px;
+    }
+    input[type="email"] {
+        margin: 16px 0 16px 0;
+    }
+    textarea {
+        height: 100px;
+        margin-bottom: 16px;
+    }
+    button {
+        background: teal;
+        border: none;
+        border-radius: 6px;
+        padding: 10px;
+        width: 60px;
+        color: #FFF;
+        cursor: pointer;
+        text-transform: uppercase;
+        &:hover {
+            color: #000;
+            background: #277E20;
+        }
+    }
+    div:last-child {
+        text-align: center;
+    }
+}
+
+// menu page
+section {
+    display: flex;
+    flex-direction: column;
+    .menu {
+        text-align: center;
+        background: $bg;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 25px;
+        .menu-cards {
+            display: flex;
+            justify-content: space-between;
+            .menu-card {
+                border: 1px solid #FFF;
+                margin: 5px;
+                img {
+                    width: 200px;
+                    height: 200px;
+                    object-fit: cover;
+                }
+                .title {
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    border-top: 2px solid #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px 10px 25px;
+    background: $bg;
+    .footer-logo {
+        display: flex;
+        width: 28%;
+        justify-content: space-between;
+        align-items: center;
+        color: #FFF;
+        p {
+            a {
+                color: #FFF;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                    color: blue;
+                }
+            }
+        }
+        div {
+            text-transform: uppercase;
+        }
+    }
+    .footer-links {
+        .social-link {
+            display: inline-block;
+            border: 1px solid #fff;
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            &:hover {
+                background: #DBA470;
+                border: 1px solid #DBA470;
+            }
+        }
+        #twitter {
+            background-image: url("./imgs/twitter.svg");
+            background-size: 22px;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-right: 10px;
+        }
+        #linkedin {
+            margin-right: 10px;
+            background-image: url("./imgs/linkedin.svg");
+            background-size: 20px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        #github {
+            background-image: url("./imgs/github.svg");
+            background-size: 20px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+}
