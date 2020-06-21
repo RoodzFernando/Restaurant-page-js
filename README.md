@@ -10,11 +10,16 @@ A restaurant web-page built using vanilla javascript.
 - Javascript
 - Webpack
 
+## Live version
+
+## [Click Here](https://rawcdn.githack.com/RoodzFernando/Restaurant-page-js/210f85f4c67c9596048c7a91ec40bcfb7d141da2/dist/index.html)
+
 ## How to Run the App Locally
 ```
    git clone https://github.com/RoodzFernando/Restaurant-page-js
    cd Restaurant-page-js
-   run npm run start
+   run npm install
+   run npm run build
 ```
 
 ## Author:
