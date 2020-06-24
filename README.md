@@ -10,6 +10,9 @@ A restaurant web-page built using vanilla javascript.
 - Javascript
 - Webpack
 
+## Demo
+![restaurant page](https://user-images.githubusercontent.com/50186903/85622839-77f09980-b635-11ea-8ad7-fe4bff3ba52a.PNG)
+
 ## Live version
 
 ## [Click Here](https://rawcdn.githack.com/RoodzFernando/Restaurant-page-js/210f85f4c67c9596048c7a91ec40bcfb7d141da2/dist/index.html)
